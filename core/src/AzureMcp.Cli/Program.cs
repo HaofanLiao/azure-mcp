@@ -77,7 +77,7 @@ internal class Program
             new AzureMcp.Redis.RedisSetup(),
             new AzureMcp.Search.SearchSetup(),
             new AzureMcp.ServiceBus.ServiceBusSetup(),
-            new AzureMcp.AzureSignalR.AzureSignalRSetup(),
+            new AzureMcp.SignalR.SignalRSetup(),
             new AzureMcp.Sql.SqlSetup(),
             new AzureMcp.Storage.StorageSetup(),
             new AzureMcp.Workbooks.WorkbooksSetup(),
