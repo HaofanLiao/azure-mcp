@@ -698,6 +698,33 @@ azmcp servicebus queue details --subscription <subscription> \
                                --queue-name <queue-name>
 ```
 
+### Azure SignalR Service Operations
+
+```bash
+# List SignalR Service resources in a subscription
+azmcp signalr runtime list --subscription <subscription>
+
+# Show details of a specific SignalR Service
+azmcp signalr runtime show --subscription <subscription> \
+                           --resource-group <resource-group> \
+                           --signalr-name <signalr-name>
+
+# List access keys for a SignalR Service
+azmcp signalr key list --subscription <subscription> \
+                       --resource-group <resource-group> \
+                       --signalr-name <signalr-name>
+
+# List network access control rules for a SignalR Service
+azmcp signalr network-rule list --subscription <subscription> \
+                                --resource-group <resource-group> \
+                                --signalr-name <signalr-name>
+
+# Show managed identity configuration of a SignalR Service
+azmcp signalr identity show --subscription <subscription> \
+                            --resource-group <resource-group> \
+                            --signalr-name <signalr-name>
+```
+
 ### Azure SQL Database Operations
 
 ```bash
